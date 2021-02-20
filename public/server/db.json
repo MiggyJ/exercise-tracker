@@ -1,0 +1,512 @@
+{
+  "users": [
+    {
+      "id": "6e0c4d28-467c-4d0e-b1e3-da7ff1aaa13c",
+      "nickname": "JM",
+      "weight": 79,
+      "password": "$2b$10$2dw6HdgANSNZg6JAy6h30up7yhef4nvQOtx.XtXGdHvKmPpU14UrC",
+      "favorites": [
+        14,
+        1,
+        16
+      ]
+    },
+    {
+      "id": "ef1de185-5d7d-47c8-ae04-f69a19fd5916",
+      "nickname": "JM2",
+      "weight": 68.45,
+      "password": "$2b$10$SPQx2u.IOtbz02dmJQuwceSPUrxmHEqUVHGCd4bin/RXicYAXOb3m",
+      "favorites": []
+    }
+  ],
+  "history": [
+    {
+      "id": "6e0c4d28-467c-4d0e-b1e3-da7ff1aaa13c",
+      "date": "1/27/2021",
+      "weight": 79,
+      "exercises": [
+        {
+          "name": "Squats",
+          "duration": 2,
+          "burned": 7.742
+        },
+        {
+          "name": "Reverse Lunges",
+          "duration": 2,
+          "burned": 11.336
+        },
+        {
+          "name": "High Knees",
+          "duration": 10,
+          "burned": 52.535
+        },
+        {
+          "name": "Lateral Leg Raises",
+          "duration": 2,
+          "burned": 7.327
+        },
+        {
+          "name": "High Knees",
+          "duration": 10,
+          "burned": 52.535
+        },
+        {
+          "name": "Side Step Squats",
+          "duration": 5,
+          "burned": 19.355
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Squats",
+      "met": 2.8,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand with your feet about shoulder-width apart and slightly turned out with your weight in your heels.",
+        "Hinge your hips to sit your butt back and bend your knees until your thighs are parallel to the ground.",
+        "Drive through your heels to stand back up straight. Squeeze your butt and keep your core tight as you stand."
+      ],
+      "url": "squats.gif"
+    },
+    {
+      "id": 2,
+      "name": "Reverse Lunges",
+      "met": 4.1,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Start standing with your feet about shoulder-width apart.",
+        "Step backwards with your left foot, landing on the ball of your foot and bending your knees to create two 90-degree angles.",
+        "Push through your right heel to return to standing.",
+        "Repeat on the other side."
+      ],
+      "url": "reverse-lunges.gif"
+    },
+    {
+      "id": 3,
+      "name": "Lateral Leg Raises",
+      "met": 2.65,
+      "tags": [
+        "Core",
+        "Lower Body"
+      ],
+      "instructions": [
+        "Lie on your side, Lower Body extended.",
+        "Lift your top leg 45 degrees, then lower slowly.",
+        "Do 5 lifts with your toe flexed, 5 with your toe pointed, and 5 with your toe pointed toward the ceiling.",
+        "Repeat on the other side."
+      ],
+      "url": "lateral-leg-raises.gif"
+    },
+    {
+      "id": 4,
+      "name": "Marching Glute Bridge",
+      "met": 2.8,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Lie faceup on your mat with your knees bent and feet flat on the floor. Lift your hips off the mat into a bridge.",
+        "Keeping your right knee bent, lift your right foot off the floor. Try to keep your hips still.",
+        "Hold for five seconds. Slowly lower your right foot to the ground but keep your hips lifted.",
+        "Lift your left foot off the ground to repeat on the other side."
+      ],
+      "url": "marching-glute-bridge.gif"
+    },
+    {
+      "id": 5,
+      "name": "Spider-Man Mountain Climber",
+      "met": 3.1,
+      "tags": [
+        "Lower Body",
+        "Core"
+      ],
+      "instructions": [
+        "Start in a high plank.",
+        "Drive your right knee out and up toward your right tricep. As you do, turn your head to watch your knee meet your arm.",
+        "Alternate sides as fast as you can while still maintaining a sturdy plank and keeping your torso in place."
+      ],
+      "url": "spider-man-mountain-climber.gif"
+    },
+    {
+      "id": 6,
+      "name": "Skater Hops",
+      "met": 2.65,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Starting at the left of your space, squat slightly then jump to the right as far as you can.",
+        "Land on your right foot and try not to touch your left foot down.",
+        "Jump back across to land on your left foot."
+      ],
+      "url": "skater-hops.gif"
+    },
+    {
+      "id": 7,
+      "name": "Donkey Kicks",
+      "met": 2.65,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Start on all fours.",
+        "Pull your right knee toward your chest, keeping your foot flexed.",
+        "Then, kick your right leg up behind you and toward the sky, then back down, keeping your knee bent and foot flexed.",
+        "Repeat on the other side."
+      ],
+      "url": "donkey-kicks.gif"
+    },
+    {
+      "id": 8,
+      "name": "Standing Oblique Crunches",
+      "met": 3.1,
+      "tags": [
+        "Core"
+      ],
+      "instructions": [
+        "Stand with your feet hip-width apart and hands behind your head and elbows wide.",
+        "Lift your left knee toward your left elbow while you bend your torso up and over to the left.",
+        "Repeat on the other side."
+      ],
+      "url": "standing-oblique-crunches.gif"
+    },
+    {
+      "id": 9,
+      "name": "Single Leg Glute Bridges",
+      "met": 2.65,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Lie on your back with your knees bent and feet flat on the floor.",
+        "Lift your left leg straight up above you, toes pointing at the ceiling. Your left knee should be directly over your left hip.",
+        "Raise your hips and lower them back to the ground, keeping your leg in the air.",
+        "Repeat on the other side."
+      ],
+      "url": "single-leg-glute-bridges.gif"
+    },
+    {
+      "id": 10,
+      "name": "Donkey Whips",
+      "met": 2.65,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Start on all fours.",
+        "Lift your right leg, extending it behind you.",
+        "Swing your right leg to the right side and then back to center.",
+        "Repeat on the other side."
+      ],
+      "url": "donkey-whips.gif"
+    },
+    {
+      "id": 11,
+      "name": "Curtsy Lunges with Side Kick",
+      "met": 4.1,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand tall with your feet hip-width apart.",
+        "Step your left leg diagonally behind your right leg and bend your knees to lower into a lunge.",
+        "Push through your right heel to stand, and sweep your left leg out to the side.",
+        "Repeat on the other side."
+      ],
+      "url": "curtsy-lunges-with-side-kick.gif"
+    },
+    {
+      "id": 12,
+      "name": "Wide-Grip Push Ups",
+      "met": 3.3,
+      "tags": [
+        "Upper Body"
+      ],
+      "instructions": [
+        "Start in a high plank position with your hands flat on the floor a little bit wider than shoulder-width apart, wrists under shoulders.",
+        "Keeping your body in one long line, bend your arms and lower yourself as close to the floor as you can.",
+        "Push back up to start."
+      ],
+      "url": "wide-grip-push-ups.gif"
+    },
+    {
+      "id": 13,
+      "name": "Froggers",
+      "met": 4.1,
+      "tags": [
+        "Lower Body",
+        "Core"
+      ],
+      "instructions": [
+        "Stand with your Lower Body wider than hip-width apart, knees bent, and upper body hinged slightly forward.",
+        "Place your hands on the ground in front of you, then jump your straight Lower Body back into a high plank.",
+        "Jump your feet to the outsides of your hands and bring your hands toward your chest to return to the starting position."
+      ],
+      "url": "froggers.gif"
+    },
+    {
+      "id": 14,
+      "name": "High Knees",
+      "met": 3.8,
+      "tags": [
+        "Lower Body",
+        "Core"
+      ],
+      "instructions": [
+        "Stand with your feet hip-width apart.",
+        "Run in place, bringing your knees up toward your chest as high as possible while pumping your arms.",
+        "Keep your chest lifted, core engaged, and land lightly on the balls of your feet."
+      ],
+      "url": "high-knees.gif"
+    },
+    {
+      "id": 15,
+      "name": "Plank Jacks",
+      "met": 3.3,
+      "tags": [
+        "Core",
+        "Upper Body"
+      ],
+      "instructions": [
+        "Start in high plank.",
+        "Keeping your core engaged, jump your feet out and in (like jumping jacks)."
+      ],
+      "url": "plank-jacks.gif"
+    },
+    {
+      "id": 16,
+      "name": "Side Lunges",
+      "met": 4.1,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand with your feet hip-width apart.",
+        "Take a big step out to your right. Bend your knee and push your butt back to do a side lunge. Keep your chest lifted and core tight.",
+        "Repeat on the other side."
+      ],
+      "url": "side-lunges.gif"
+    },
+    {
+      "id": 17,
+      "name": "Side Step Squats",
+      "met": 2.8,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand tall with your feet together and hands on your hips.",
+        "Step your right foot to the right, so your feet are just wider than shoulder-width apart.",
+        "Drop your butt back and bend your knees to lower into a squat.",
+        "Straighten your knees and bring your foot back to the starting position.",
+        "Repeat on the other side."
+      ],
+      "url": "side-step-squats.gif"
+    },
+    {
+      "id": 18,
+      "name": "Lateral Plank Walks",
+      "met": 3.5,
+      "tags": [
+        "Core",
+        "Upper Body"
+      ],
+      "instructions": [
+        "Start in a high plank with your shoulders above your wrists and abs tight.",
+        "Step your right foot and right hand to the right, immediately following with your left foot and left hand. Take a few 'steps' in one direction, then walk in the opposite direction."
+      ],
+      "url": "lateral-plank-walks.gif"
+    },
+    {
+      "id": 19,
+      "name": "Forward to Reverse Lunges",
+      "met": 4.1,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand with your feet hip-width apart.",
+        "Step forward with your left foot into a forward lunge, with both knees bent so that your knees so that the front thigh is parallel to the floor and the back knee is about two inches from the floor.",
+        "Push off your front foot, hover your foot as you stand straight up, and immediately step back into a reverse lunge.",
+        "Drive through your front foot to stand back up."
+      ],
+      "url": "forward-to-reverse-lunges.gif"
+    },
+    {
+      "id": 20,
+      "name": "Push Ups",
+      "met": 3.3,
+      "tags": [
+        "Upper Body"
+      ],
+      "instructions": [
+        "Start in a high plank position with your hands flat on the floor about shoulder-width apart, wrists under shoulders.",
+        "Keeping your body in one long line, bend your arms and lower yourself as close to the floor as you can. Your elbows should be at about a 45-degree angle to your torso.",
+        "Push back up to start."
+      ],
+      "url": "push-ups.gif"
+    },
+    {
+      "id": 21,
+      "name": "Jump Squats",
+      "met": 3.8,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand with your feet slightly wider than hip-distance apart.",
+        "Sit your butt back and bend your knees to drop into a squat, keeping your chest upright.",
+        "Jump up into the air as high as you can and straighten out your Lower Body.",
+        "Land back on the floor with soft knees."
+      ],
+      "url": "jump-squats.gif"
+    },
+    {
+      "id": 22,
+      "name": "Forward Lunges",
+      "met": 4.1,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand with your feet together.",
+        "Take a big step forward with your right foot. Bend your right leg until your front thigh is parallel to the floor and your back knee is just barely touching the floor.",
+        "Push up through your back front heel to return to the start position.",
+        "Repeat on the other side."
+      ],
+      "url": "forward-lunges.gif"
+    },
+    {
+      "id": 23,
+      "name": "Plank Ups",
+      "met": 3.5,
+      "tags": [
+        "Core",
+        "Upper Body"
+      ],
+      "instructions": [
+        "Start in a high plank. Bend one arm to bring the elbow and forearm to the floor.",
+        "Bring the other arm down so you are in a forearm plank.",
+        "Push back up to the start position, placing each hand where your elbows were.",
+        "Repeat this pattern, alternating which side you lower first with each rep."
+      ],
+      "url": "plank-ups.gif"
+    },
+    {
+      "id": 24,
+      "name": "Squat Jacks",
+      "met": 2.8,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Start standing with your feet together, hands at your chest.",
+        "Jump your feet out and sit back into a small squat.",
+        "Jump your feet back together to return to standing."
+      ],
+      "url": "squat-jacks.gif"
+    },
+    {
+      "id": 25,
+      "name": "Extended Leg Pulses",
+      "met": 3.1,
+      "tags": [
+        "Core",
+        "Lower Body"
+      ],
+      "instructions": [
+        "Bring your right knee to your chest and extend the right leg to the ceiling. Keep your left leg extended and off the floor about 3 to 5 inches.",
+        "Interlace your fingertips behind your right knee.",
+        "Using your abs (not your hands), pulse your upper body up 3 to 5 inches. Make sure your low back stays planted firmly on the floor.",
+        "Repeat on the other side."
+      ],
+      "url": "extended-leg-pulses.gif"
+    },
+    {
+      "id": 26,
+      "name": "Burpees",
+      "met": 8,
+      "tags": [
+        "Core",
+        "Upper Body",
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand with your feet shoulder-width apart, arms by your sides.",
+        "Bend your knees and reach forward to place your hands on the floor.",
+        "Kick your Lower Body straight out behind you and immediately lower your entire body down to the ground, bending at the elbows.",
+        "Use your arms to quickly push your body back up and hop your Lower Body back under your body.",
+        "Jump straight up into the air, reaching your arms overhead. End with your knees slightly bent."
+      ],
+      "url": "burpees.gif"
+    },
+    {
+      "id": 27,
+      "name": "Single-Leg Reach and Jumps",
+      "met": 4.1,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Stand with feet hip width apart, hands at your sides.",
+        "Hinge at your hips and bend your knees to extend your left leg behind you (no higher than your hips) as you reach your left arm to ground about a foot ahead of where your left foot was.",
+        "Drive your left knee up to return to an upright position, and hop on your right foot.",
+        "Repeat on the other side."
+      ],
+      "url": "single-leg-reach-and-jumps.gif"
+    },
+    {
+      "id": 28,
+      "name": "Hip Bridges",
+      "met": 2.65,
+      "tags": [
+        "Lower Body"
+      ],
+      "instructions": [
+        "Start lying flat on your back, your knees bent and your heels a few inches away from your butt. Your feet should be about hip-distance apart.",
+        "Lift your hips up, then lower them back to the ground."
+      ],
+      "url": "hip-bridges.gif"
+    },
+    {
+      "id": 29,
+      "name": "Fire Hydrants",
+      "met": 2.65,
+      "tags": [
+        "Lower Body",
+        "Core"
+      ],
+      "instructions": [
+        "Start on all fours.",
+        "Lift your right leg to the side, keeping your knee bent, until your knee reaches hip height.",
+        "Lower to start, hovering your knee above the ground.",
+        "Repeat on the other side."
+      ],
+      "url": "fire-hydrants.gif"
+    },
+    {
+      "id": 30,
+      "name": "Power Lunges",
+      "met": 4.5,
+      "tags": [
+        "Lower Body",
+        "Core"
+      ],
+      "instructions": [
+        "Stand with your feet hip-width apart.",
+        "Lunge back with your right foot, bending both knees 90 degrees.",
+        "Straighten your left leg and jump into the air while driving your right knee up in front of your body.",
+        "Immediately lower your right foot back into a lunge.",
+        "Repeat on the other side."
+      ],
+      "url": "power-lunges.gif"
+    }
+  ]
+}
