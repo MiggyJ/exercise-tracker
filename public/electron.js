@@ -76,20 +76,24 @@ function createWindow() {
     windowTray.setToolTip('Exercise Tracker')
     
     windowTray.setContextMenu(trayMenu)
-    windowTray.on('click', () => mainWindow.show())
+    windowTray.on('click', () => {
+        mainWindow.show()
+        windowTray.removeBalloon()
+    })
 
     // Emitted when the window is closed.
     mainWindow.on('close', function (e) {
         // Dereference the window object, usually you would store windows
         // in an array if your app supports multi windows, this is the time
         // when you should delete the corresponding element.
+        e.preventDefault()
 
         windowTray.displayBalloon({
+            iconType: 'info',
             title: 'Exercise Tracker',
             content: 'You can open me again from system tray found at the right section of the taskbar or by clicking the ∧ symbol.'
         })
         e.sender.hide()
-        e.preventDefault()
     })
 }
 
