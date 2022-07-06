@@ -10,9 +10,9 @@ app.use(cors())
 const exerciseRoutes = require('./routes/exercise')
 const userRoutes = require('./routes/user')
 const historyRoutes = require('./routes/history')
-app.use('/exercise', exerciseRoutes)
-app.use('/user', userRoutes)
-app.use('/history', historyRoutes)
+app.use('/api/exercise', exerciseRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/history', historyRoutes)
 
 
 app.listen(5000, () => {
