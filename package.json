@@ -38,7 +38,7 @@
     "backend": "node public/server/index",
     "electron": "electron .",
     "dist": "electron-builder",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false node build/server/index.js"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
   },
   "build": {
     "productName": "Exercise Tracker",
